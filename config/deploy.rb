@@ -1,7 +1,7 @@
 # Change these
 server '162.243.8.228', port: 22, roles: [:web, :app, :db], primary: true
 
-set :repo_url,        'git@github.com:kschoonhoven/presupuestoparticipativo.git'
+set :repo_url,        'git@github.com:DanielGabris/presupuestoparticipativo.git'
 set :application,     'presupuestoparticipativo'
 set :user,            'deploy'
 set :puma_threads,    [4, 16]
