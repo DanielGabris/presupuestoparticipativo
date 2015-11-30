@@ -1,5 +1,5 @@
 # Change these
-server '162.243.8.228', port: 22, roles: [:web, :app, :db], primary: true
+server '178.62.218.59', port: 22, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'git@github.com:DanielGabris/presupuestoparticipativo.git'
 set :application,     'presupuestoparticipativo'
